@@ -1,12 +1,36 @@
-# React + Vite
+# csit340-todomvc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A TodoMVC app built with React (Vite) and Tailwind CSS.
 
-Currently, two official plugins are available:
+-Danielle Ben Ibale
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add a todo by typing and pressing Enter
+- Check and uncheck todos
+- Delete a todo
+- Items left counter (singular and plural)
+- Clear completed todos
+- Toggle all todos with the ❯ button
+- Filters: All, Active, Completed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to run
+
+```bash
+npm install
+npm run dev
+```
+
+## Note about the commit history
+
+Because of npm setup problems on the lab PC, some steps were committed together. These commits are empty placeholders with no code changes:
+
+- `chore: replace YOUR NAME with Danielle Ben Ibale`
+- `feat: render todos from state with map`
+- `feat: clear completed todos`
+- `feat: toggle all todos`
+- `feat: filter todos`
+
+The code for these steps is included in the earlier real commits, mainly `feat: add todos on submit` through `feat: show the number of items left`. The final app is complete and working.
+
+Inspired by TodoMVC.
